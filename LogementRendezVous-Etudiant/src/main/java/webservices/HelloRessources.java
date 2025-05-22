@@ -15,7 +15,7 @@ public class HelloRessources {
     public Response sayHello() {
         return Response.
                 status(200).
-                entity("Hello World!").
+                entity("Hello World").
                 build();
     }
     @GET
